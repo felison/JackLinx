@@ -1,0 +1,15 @@
+===========================================
+PRESETS
+===========================================
+Reset Jack-Mixer                          :  /opt/jacklinx/bin/app-preset-jackmixer-01.sh
+Reset VMPK-Keyboard                       :  /opt/jacklinx/bin/app-preset-vmpk-qsynth-01.sh
+Reset Qsynth                              :  /opt/jacklinx/bin/app-preset-qsynth-01.sh
+Reset QMidiRoute                          :  /opt/jacklinx/bin/app-preset-qmidiroute-01.sh
+===========================================
+Reset Window Display Geometry             :  devilspie -a 
+===========================================
+Load Presets for Applications             :  /opt/jacklinx/bin/set-presets.sh
+Load Presets for Display XVGA 1280 x 1024 :  /opt/jacklinx/bin/set-presets-devilspie-1280x1024.sh
+===========================================
+Exit                                      :  exit
+===========================================

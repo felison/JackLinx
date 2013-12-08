@@ -1,0 +1,13 @@
+; generated_rule qmidiroute
+( if 
+( begin 
+( contains ( application_name ) "QMidiRoute" )
+( contains ( window_name ) "QMidiRoute" )
+) 
+( begin 
+( set_workspace 2 )
+( geometry "551x503+461+260" )
+( minimize )
+( println "match" )
+)
+)

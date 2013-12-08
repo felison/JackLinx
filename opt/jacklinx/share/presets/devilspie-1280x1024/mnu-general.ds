@@ -1,0 +1,12 @@
+; generated_rule mnu-general
+( if 
+( begin 
+( contains ( window_name ) "General" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "+0+30" )
+( println "match" )
+)
+)

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="mplayer_dvd_device" mtime="1350134330" type="string">
+		<stringvalue>/dev/dvd</stringvalue>
+	</entry>
+	<entry name="show_subtitles" mtime="1350134330" type="bool" value="true"/>
+	<entry name="subtitle_margin" mtime="1350134330" type="int" value="0"/>
+	<entry name="subtitleshadow" mtime="1350134330" type="bool" value="false"/>
+	<entry name="subtitleoutline" mtime="1350134330" type="bool" value="false"/>
+	<entry name="subtitlecolor" mtime="1350134330" type="string">
+		<stringvalue>ffffff00</stringvalue>
+	</entry>
+	<entry name="subtitlescale" mtime="1350134330" type="float" value="1"/>
+	<entry name="verbose" mtime="1350134330" type="int" value="0"/>
+	<entry name="resize_on_new_media" mtime="1350134330" type="bool" value="false"/>
+	<entry name="keep_on_top" mtime="1350134330" type="bool" value="false"/>
+	<entry name="remember_loc" mtime="1350134330" type="bool" value="false"/>
+	<entry name="bring_to_front" mtime="1350134330" type="bool" value="false"/>
+	<entry name="replace_and_play" mtime="1350134330" type="bool" value="false"/>
+	<entry name="single_instance" mtime="1350134330" type="bool" value="false"/>
+	<entry name="vertical" mtime="1350134330" type="bool" value="false"/>
+	<entry name="show_status_icon" mtime="1350134330" type="bool" value="true"/>
+	<entry name="show_notification" mtime="1350134330" type="bool" value="true"/>
+	<entry name="mouse_wheel_changes_volume" mtime="1350134330" type="bool" value="false"/>
+	<entry name="use_xscrnsaver" mtime="1350134330" type="bool" value="false"/>
+	<entry name="use_defaultpl" mtime="1350134330" type="bool" value="false"/>
+	<entry name="use_mediakeys" mtime="1350134330" type="bool" value="true"/>
+	<entry name="showdetails" mtime="1350134330" type="bool" value="false"/>
+	<entry name="showplaylist" mtime="1350134330" type="bool" value="false"/>
+	<entry name="disable_animation" mtime="1350134330" type="bool" value="false"/>
+	<entry name="disable_pause_on_click" mtime="1350134330" type="bool" value="true"/>
+	<entry name="disableframedrop" mtime="1350134330" type="bool" value="false"/>
+	<entry name="disable_deinterlace" mtime="1350134330" type="bool" value="true"/>
+	<entry name="disableembeddedfonts" mtime="1350134330" type="bool" value="false"/>
+	<entry name="disableass" mtime="1350134330" type="bool" value="false"/>
+	<entry name="forcecache" mtime="1350134330" type="bool" value="false"/>
+	<entry name="volume_gain" mtime="1350134330" type="int" value="0"/>
+	<entry name="remember_softvol" mtime="1350134330" type="bool" value="false"/>
+	<entry name="softvol" mtime="1350134330" type="bool" value="false"/>
+	<entry name="pplevel" mtime="1350134330" type="int" value="0"/>
+	<entry name="osdlevel" mtime="1350134330" type="int" value="0"/>
+	<entry name="plugin_video_cache_size" mtime="1350134330" type="int" value="2000"/>
+	<entry name="plugin_audio_cache_size" mtime="1350134330" type="int" value="2000"/>
+	<entry name="cache_size" mtime="1350134330" type="int" value="2000"/>
+	<entry name="use_hw_audio" mtime="1350134330" type="bool" value="false"/>
+	<entry name="audio_channels" mtime="1350134330" type="int" value="0"/>
+	<entry name="audio-device-name" mtime="1350134330" type="string">
+		<stringvalue>JACK</stringvalue>
+	</entry>
+</gconf>

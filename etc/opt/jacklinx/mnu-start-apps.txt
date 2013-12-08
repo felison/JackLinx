@@ -1,0 +1,23 @@
+=================================================================================================
+      _            _    _     _              __  __           _           _                     :                
+     | | __ _  ___| | _| |   (_)_ __ __  __ |  \/  |_   _ ___(_) ___     / \   _ __  _ __  ___  :
+  _  | |/ _` |/ __| |/ / |   | | '_ \\ \/ / | |\/| | | | / __| |/ __|   / _ \ | '_ \| '_ \/ __| :
+ | |_| | (_| | (__|   <| |___| | | | |>  <  | |  | | |_| \__ \ | (__   / ___ \| |_) | |_) \__ \ :
+  \___/ \__,_|\___|_|\_\_____|_|_| |_/_/\_\ |_|  |_|\__,_|___/_|\___| /_/   \_\ .__/| .__/|___/ :
+                                                                              |_|   |_|         :
+                                                                                                :
+=================================================================================================
+                                                                                                :
+Firefox          - Web Browser                 - Mixer Channel "Flash"                          :  firefox http://content.jacklinx.nl/en/songs-selection-2
+MuseScore        - Score Player and Editor     - Mixer Channel "Score"                          :  mscore
+Gnome-MPlayer    - Video and Audio Player      - Mixer Channel "Player"                         :  gnome-mplayer
+=================================================================================================
+KMetronome       - Metronome & Rhythm machine  - Mixer Channel "Midi"    - Plays over LAN Band  :  kmetronome  
+KMidiMon         - Midi Player                 - Mixer Channel "Midi"    - Plays over LAN Band  :  kmidimon
+PianoBooster     - Piano Trainer               - Mixer Channel "Midi"    - Plays over LAN Band  :  pianobooster
+================================================================================================= 
+Hydrogen         - Drum Sequencer              - Mixer Channel "Other"                          :  hydrogen 
+Mixxx            - DJ Desk                     - Mixer Channel "Other"                          :  mixxx 
+=================================================================================================
+Exit                                                                                            :
+=================================================================================================

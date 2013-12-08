@@ -1,0 +1,11 @@
+; generated_rule jkmeter
+( if 
+( begin 
+( contains ( application_name ) "jkmeter" )
+) 
+( begin 
+( pin )
+( geometry "+0+230" )
+( println "match" )
+)
+)

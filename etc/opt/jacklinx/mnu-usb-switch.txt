@@ -1,0 +1,10 @@
+============================
+Switch to ch 2  Soprano    :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch2.sh
+Switch to ch 3  Alto       :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch3.sh
+Switch to ch 4  Tenor      :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch4.sh
+Switch to ch 5  Bass       :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch5.sh
+Switch to ch 5  Chords     :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch9.sh
+Switch to ch 10 Percussion :  /opt/jacklinx/bin/swt-mdd-rtr-ch1-ch10.sh
+============================
+Exit                       : 
+============================

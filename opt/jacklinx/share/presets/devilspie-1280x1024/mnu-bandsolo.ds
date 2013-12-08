@@ -1,0 +1,12 @@
+; generated_rule mnu-bandsolo
+( if 
+( begin 
+( contains ( window_name ) "BandSolo" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "132x57+0+620" )
+( println "match" )
+)
+)

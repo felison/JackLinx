@@ -1,0 +1,11 @@
+; generated_rule kmidimon
+( if 
+( begin 
+( contains ( window_name ) "KMidimon" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "867x466+149+40" )
+( println "match" )
+)
+)

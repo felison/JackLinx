@@ -1,0 +1,11 @@
+; generated_rule meterbridge
+( if 
+( begin 
+( contains ( application_name ) "meterbridge" )
+) 
+( begin 
+( pin )
+( geometry "+0+30" )
+( println "match" )
+)
+)

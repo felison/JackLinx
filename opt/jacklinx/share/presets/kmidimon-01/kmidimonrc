@@ -1,0 +1,95 @@
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAABAAAAAK1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+Width 1024=1025
+
+[Filters]
+filter_10=true
+filter_11=true
+filter_12=true
+filter_13=true
+filter_130=true
+filter_135=true
+filter_136=true
+filter_137=true
+filter_14=true
+filter_15=true
+filter_16=true
+filter_20=true
+filter_21=true
+filter_22=true
+filter_23=true
+filter_24=true
+filter_30=true
+filter_31=true
+filter_32=true
+filter_35=true
+filter_36=true
+filter_37=true
+filter_40=true
+filter_41=true
+filter_42=true
+filter_5=true
+filter_6=true
+filter_60=true
+filter_61=true
+filter_62=true
+filter_63=true
+filter_64=true
+filter_65=true
+filter_66=true
+filter_67=true
+filter_7=true
+filter_8=true
+filter_91=true
+filter_92=true
+filter_93=true
+filter_94=true
+
+[KFileDialog Settings]
+Height 768=288
+Recent Files[$e]=$HOME/Documenten/bbbbb.txt,$HOME/JaxStore/midiback/midifiles/Tom-Dooley-F-Maj-Band.mid,$HOME/JaxStore/midiback/midifiles/Blues-Backingtrack.mid
+Width 1024=541
+
+[MainWindow]
+Height 1024=466
+Height 768=441
+State=AAAA/wAAAAD9AAAAAAAAA2MAAAF9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=435
+Width 1280=867
+
+[Recent Dirs]
+MIDIMONITOR[$e]=file://$HOME/JaxStore/midiback/midifiles/,file://$HOME/Documenten/,$HOME/Documenten
+
+[RecentFiles]
+File1[$e]=$HOME/jacklinx-demo/midi/rap-das-armas-c-maj-band.mid
+Name1[$e]=rap-das-armas-c-maj-band.mid
+
+[Settings]
+alsa=true
+auto_resize=true
+channel=true
+client_names=false
+common=true
+encoding=
+fixed_font=false
+instrument=
+output_connection=QmidiNet:1
+realtime=true
+realtime_prio=false
+resolution=240
+show_column_0=false
+show_column_1=true
+show_column_2=false
+show_column_3=true
+show_column_4=true
+show_column_5=true
+show_column_6=true
+show_column_7=true
+smf=true
+sysex=true
+tempo=120
+translate_ctrls=false
+translate_notes=false
+translate_sysex=false

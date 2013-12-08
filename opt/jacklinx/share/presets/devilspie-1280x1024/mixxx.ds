@@ -1,0 +1,11 @@
+; generated_rule mixxx
+( if 
+( begin 
+( contains ( window_name ) "Mixxx" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "1120x670+150+30" )
+( println "match" )
+)
+)

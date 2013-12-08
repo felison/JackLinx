@@ -1,0 +1,12 @@
+; generated_rule bandnumber
+( if 
+( begin 
+( contains ( window_name ) "Band Number" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "132x41+0+680" )
+( println "match" )
+)
+)

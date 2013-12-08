@@ -1,0 +1,11 @@
+; generated_rule pavucontrol
+( if 
+( begin 
+( contains ( application_name ) "pavucontrol" )
+) 
+( begin 
+( set_workspace 6 )
+( geometry "770x430+150+330" )
+( println "match" )
+)
+)

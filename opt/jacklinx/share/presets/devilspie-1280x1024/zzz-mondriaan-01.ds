@@ -1,0 +1,11 @@
+; generated_rule mondriaan-01
+( if 
+( begin 
+( contains ( window_name ) "Mondriaan-01" )
+) 
+( begin 
+( stick )
+( below )
+( println "match" )
+)
+)

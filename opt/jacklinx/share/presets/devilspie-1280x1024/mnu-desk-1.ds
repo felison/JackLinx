@@ -1,0 +1,11 @@
+; generated_rule mnu-desk-1
+( if 
+( begin 
+( contains ( window_name ) "DESK_1" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "100x1000+0+395" )
+( println "match" )
+)
+)

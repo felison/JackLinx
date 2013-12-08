@@ -1,0 +1,11 @@
+; generated_rule qjackctl
+( if 
+( begin 
+( contains ( application_name ) "JACK Audio Connection Kit" )
+) 
+( begin 
+( set_workspace 2 )
+( geometry "480x160+150+30" )
+( println "match" )
+)
+)

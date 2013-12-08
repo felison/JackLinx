@@ -1,0 +1,2 @@
+Join Band     : /opt/jacklinx/bin/mnu-joinband.sh
+Quit Band     : killall qmidinet ; wmctrl -c "Band Number" & 9menu -label "Band Number" -bg orange -fg black -geometry 100x1000+0+800 "Solo          "

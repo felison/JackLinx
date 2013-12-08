@@ -1,0 +1,12 @@
+; generated_rule meterbridge
+( if 
+( begin 
+( contains ( window_name ) "meterbridge" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "76x237+0+230" )
+( println "match" )
+)
+)

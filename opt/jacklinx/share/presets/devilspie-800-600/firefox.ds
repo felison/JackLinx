@@ -1,0 +1,12 @@
+; generated_rule firefox
+( if 
+( begin 
+( contains ( window_name ) "Mozilla Firefox" )
+) 
+( begin 
+( set_workspace 1 )
+( unmaximize )
+( geometry "856x535+149+25" )
+( println "match" )
+)
+)

@@ -1,0 +1,208 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="2" name="kmidimon">
+ <MenuBar alreadyVisited="1">
+  <Menu name="file" alreadyVisited="1">
+   <text>&amp;File</text>
+   <Action name="file_new"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save_as"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_new"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save_as"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_new"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save_as"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_new"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save_as"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_info"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
+  </Menu>
+  <Menu name="control">
+   <text>C&amp;ontrol</text>
+   <Action name="rewind"/>
+   <Action name="play"/>
+   <Action name="pause"/>
+   <Action name="forward"/>
+   <Action name="record"/>
+   <Action name="stop"/>
+   <Separator/>
+   <Action name="loop"/>
+   <Action name="tempo_slider"/>
+   <Action name="tempo100"/>
+  </Menu>
+  <Menu name="connections">
+   <text>Connec&amp;tions</text>
+   <Action name="connect_all"/>
+   <Action name="disconnect_all"/>
+   <Separator/>
+   <Action name="connections_dialog"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Menu name="settings" alreadyVisited="1">
+   <text>&amp;Settings</text>
+   <Action name="options_show_statusbar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_show_statusbar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_show_statusbar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+   <Separator weakSeparator="1"/>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
+   <Action name="options_show_statusbar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu name="help" alreadyVisited="1">
+   <text>&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
+  <Action name="rewind"/>
+  <Action name="play"/>
+  <Action name="pause"/>
+  <Action name="forward"/>
+  <Action name="stop"/>
+  <text>Main Toolbar</text>
+  <Action name="loop"/>
+ </ToolBar>
+ <Menu name="popup">
+  <text>Display settings</text>
+  <Action name="resize_columns"/>
+  <Menu name="tracks">
+   <text>Tracks</text>
+   <Action name="add_track"/>
+   <Action name="delete_track"/>
+   <Action name="change_track"/>
+   <Action name="mute_track"/>
+  </Menu>
+  <Menu name="columns">
+   <text>Show Columns</text>
+   <Action name="show_ticks"/>
+   <Action name="show_time"/>
+   <Action name="show_source"/>
+   <Action name="show_kind"/>
+   <Action name="show_channel"/>
+   <Action name="show_data1"/>
+   <Action name="show_data2"/>
+   <Action name="show_data3"/>
+  </Menu>
+ </Menu>
+ <State name="recording_state">
+  <enable>
+   <Action name="stop"/>
+  </enable>
+  <disable>
+   <Action name="record"/>
+   <Action name="rewind"/>
+   <Action name="play"/>
+   <Action name="forward"/>
+   <Action name="pause"/>
+   <Action name="tempo_slider"/>
+   <Action name="tempo100"/>
+  </disable>
+ </State>
+ <State name="stopped_state">
+  <enable>
+   <Action name="record"/>
+   <Action name="rewind"/>
+   <Action name="play"/>
+   <Action name="forward"/>
+   <Action name="tempo_slider"/>
+   <Action name="tempo100"/>
+  </enable>
+  <disable>
+   <Action name="stop"/>
+   <Action name="pause"/>
+  </disable>
+ </State>
+ <State name="playing_state">
+  <enable>
+   <Action name="stop"/>
+   <Action name="pause"/>
+   <Action name="tempo_slider"/>
+   <Action name="tempo100"/>
+  </enable>
+  <disable>
+   <Action name="record"/>
+   <Action name="rewind"/>
+   <Action name="play"/>
+   <Action name="forward"/>
+  </disable>
+ </State>
+</kpartgui>

@@ -1,0 +1,12 @@
+===========================================================================
+Copyright  Fred de Borst                                                  :
+Mail       felison@gmx.net                                                :
+===========================================================================
+Weblinks                                                                  :
+JackLinx Portal                  www.jacklinx.nl                          :  firefox http://www.jacklinx.nl ; wmctrl -s 1   
+JackLinx Documentation Website   documentation.jacklinx.nl                :  firefox http://documentation.jacklinx.nl ; wmctrl -s 1
+JackLinx Demo Media Website      content.jacklinx.nl                      :  firefox http://content.jacklinx.nl ; wmctrl -s 1
+JackLinx Forum Website           forum.jacklinx.nl                        :  firefox http://forum.jacklinx.nl ; wmctrl -s 1
+===========================================================================
+License    GNU - General Public Licence Version 3 - GPLv3                 :
+===========================================================================

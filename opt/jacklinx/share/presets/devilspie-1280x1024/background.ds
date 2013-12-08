@@ -1,0 +1,11 @@
+; generated_rule background
+( if 
+( begin 
+( contains ( window_name ) "JackLinx-Background" )
+) 
+( begin 
+( pin )
+( below )
+( println "match" )
+)
+)

@@ -1,0 +1,11 @@
+; generated_rule jackeq
+( if 
+( begin 
+( contains ( window_name ) "jackEQ" )
+) 
+( begin 
+( set_workspace 4 )
+( geometry "590x630+150+30" )
+( println "match" )
+)
+)

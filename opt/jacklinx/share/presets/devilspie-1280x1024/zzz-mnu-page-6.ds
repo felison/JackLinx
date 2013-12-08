@@ -1,0 +1,11 @@
+; generated_rule mnu-page-6
+( if 
+( begin 
+( contains ( window_name ) "PAGE_6" )
+) 
+( begin 
+( set_workspace 6 )
+( geometry "100x1000+0+300" )
+( println "match" )
+)
+)

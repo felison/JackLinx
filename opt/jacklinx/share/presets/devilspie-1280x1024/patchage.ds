@@ -1,0 +1,11 @@
+; generated_rule patchage
+( if 
+( begin 
+( contains ( window_name ) "Patchage" )
+) 
+( begin 
+( set_workspace 6 )
+( geometry "1120x720+150+30" )
+( println "match" )
+)
+)

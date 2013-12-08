@@ -1,0 +1,12 @@
+DESK 3 SYNTH :
+==============
+             :
+             : 
+             :
+             :
+             :
+             :
+             :
+             :
+Panic        : /opt/jacklinx/bin/app-panic-qsynth.sh
+==============

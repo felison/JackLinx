@@ -1,0 +1,245 @@
+#!/bin/bash
+
+# Application name: JackLinx
+# Developer:        Fred de Borst
+# Website:          http://www.jacklinx.nl
+# Documentation:    http://documentation.jacklinx.nl
+# Email:            felison@gmx.net
+# Date:             May 2013
+# Licence:          GPL-V3
+
+# Function Library for closing all JackLinx applications.
+
+# Alphabetical order
+
+
+
+### 9menu ##############################################################
+stop-9menu()
+{
+killall 9menu & 
+}
+
+### ALSAMIXER ##########################################################
+stop-alsamixer()
+{
+wmctrl -c "ALSA Sequencer" & 
+wmctrl -c xterm &
+killall xterm &
+}
+
+### CHROMIUM-BROWSER ###################################################
+stop-chromiumbrowser()
+{
+wmctrl -c chromium-browser &  
+killall chromium-brouwser &
+}
+
+### DEVILSPIE ##########################################################
+stop-devilspie()
+{
+killall devilspie &
+}
+
+### DIGITAL PEAK METER #################################################
+stop-dpm()
+{
+wmctrl -c dpm &
+killall dpm &
+}
+
+### FIREFOX ############################################################
+stop-firefox() 
+{
+killall firefox & 
+}
+
+### GMIDIMONITOR #######################################################
+stop-gmidimonitor()
+{
+wmctrl -c GMIDImonitor & 
+killall gmidimonitor &
+killall "gmidimonitor -alsa" &
+wmctrl -c GMIDImonitor & 
+killall gmidimonitor &
+killall "gmidimonitor -alsa" &
+}
+
+# GNOME-MPLAYER ########################################################
+stop-mplayer()
+{
+wmctrl -c gnome-mplayer &
+wmctrl -c GNOME_MPlayer &
+wmctrl -c mplayer &
+}
+
+### JACKMIXER ##########################################################
+stop-jackmixer() 
+{
+wmctrl -c jack-mixer  &
+killall jack-mixer  &
+wmctrl -c jack_mixer &
+killall jack_mixer &
+wmctrl -c jackmixer &
+killall jackmixer &
+wmctrl -c Jack_Mixer &
+killall Jack_Mixer &
+}
+
+### JACKRACK ##########################################################
+stop-jackrack() 
+{
+wmctrl -c jack-rack & 
+killall jack-rack &
+}
+
+### JKMETER ###########################################################
+stop-jkmeter()
+{
+wmctrl -c jkmeter & 
+killall jkmeter	&
+}
+
+### KMETRONOME ########################################################
+stop-kmetronome()
+{
+wmctrl -c kmetronome & 
+killall kmetronome &
+}
+
+### KMIDIMON ##########################################################
+stop-kmidimon()
+{
+wmctrl -c kmidimon &
+killall kmidimon &
+}
+
+### METERBRIDGE #######################################################
+stop-meterbridge()
+{
+wmctrl -c meterbridge &  
+killall meterbridge &
+wmctrl -c meterbridge &  
+killall meterbridge &
+wmctrl -c meterbridge &  
+killall meterbridge &
+wmctrl -c meterbridge-dpm &  
+killall meterbridge-dpm &
+}
+
+### MIDIDINGS MIDIROUTER CHANNEL TO PORT #############################
+stop-mdd-router()
+{
+killall /bin/bash /opt/jacklinx/bin/mdd-router-ch-port.sh &  
+killall mdd-router-ch-port.sh &  
+killall mididings &    
+}
+
+### MIXXX ############################################################
+stop-mixxx()
+{
+wmctrl -c mixxx &  
+killall mixxx &
+}
+
+### MUSE-SCORE #######################################################
+stop-mscore()
+{
+wmctrl -c mscore.real &  
+wmctrl -c musescore &
+wmctrl -c MuseScore &
+killall mscore &
+killall musescore &
+killall MuseScore &
+}
+
+### PATCHAGE #########################################################
+stop-patchage()
+{
+wmctrl -c Patchage &  
+wmctrl -c patchage &
+killall patchage & 
+}
+
+### PIANO BOOSTER ###
+stop-pianobooster()
+{
+wmctrl -c pianobooster & 
+killall pianoboooster &
+
+### PULSEAUDIO VOLUME CONTROL ########################################
+stop-pavucontrol()
+{
+wmctrl -c Volumeregeling &
+killall pavucontrol &
+}
+
+### QJACKCTL #########################################################
+stop-qjackctl()
+{
+wmctrl -c "JACK Audio Connection Kit [] Gestart." &  
+wmctrl -c "JACK Audio Connection Kit [] Gestopt." &
+wmctrl -c "JACK Audio Connection Kit [] Actief." &
+killall qjackctl &
+killall jackd &
+wmctrl -c "JACK Audio Connection Kit [] Gestart." &  
+wmctrl -c "JACK Audio Connection Kit [] Gestopt." &
+wmctrl -c "JACK Audio Connection Kit [] Actief." &
+killall qjackctl &
+killall jackd &
+}
+
+### QMIDIROUTE #######################################################
+stop-qmidiroute()
+{
+wmctrl -c qmidiroute &
+killall qmidiroute &
+killall qmidiroute /etc/opt/jacklinx/qmr-chord-maker-01.qmr &  
+}
+
+### QSYNTH ###########################################################
+stop-qsynth()
+{
+wmctrl -c "Qsynth - A fluidsynth Qt GUI Interface [Qsynth-CH-01]" & 
+killall qsynth &
+}
+
+### QTRACTOR #########################################################
+stop-qtractor() 
+{
+killall qtractor &
+}
+
+### STOPWATCH ########################################################
+stop-stopwatch()
+{
+wmctrl -c Stopwatch & 
+wmctrl -c stopwatch & 
+killall stopwatch &
+wmctrl -c Stopwatch & 
+wmctrl -c stopwatch & 
+killall stopwatch &
+wmctrl -c Stopwatch & 
+wmctrl -c stopwatch & 
+killall stopwatch &
+}
+
+### VMPK #############################################################
+stop-vmpk()
+{
+wmctrl -c "Virtual MIDI Piano Keyboard" & 
+killall vmpk &
+}
+
+### XSYSINFO #########################################################
+stop-xsysinfo()
+{
+wmctrl -c xsysinfo &
+killall xsysinfo &
+wmctrl -c xsysinfo &  
+killall xsysinfo &
+}
+
+### End of library
+
+

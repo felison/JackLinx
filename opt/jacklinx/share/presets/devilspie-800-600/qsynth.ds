@@ -1,0 +1,12 @@
+; generated_rule qsynth
+( if 
+( begin 
+( contains ( application_name ) "Qsynth" )
+) 
+( begin 
+( set_workspace 2 )
+( geometry "888x261+136+29" )
+( minimize )
+( println "match" )
+)
+)

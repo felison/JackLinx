@@ -1,0 +1,10 @@
+; generated_rule stopwatch
+( if 
+( begin 
+( contains ( window_name ) "stopwatch" )
+) 
+( begin 
+( geometry "320x240+150+230" )
+( println "match" )
+)
+)

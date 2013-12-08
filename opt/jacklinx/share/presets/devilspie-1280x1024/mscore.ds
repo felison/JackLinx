@@ -1,0 +1,12 @@
+; generated_rule mscore
+( if 
+( begin 
+( contains ( application_name ) "mscore" )
+( contains ( window_name ) "MuseScore" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "860x670+400+30" )
+( println "match" )
+)
+)

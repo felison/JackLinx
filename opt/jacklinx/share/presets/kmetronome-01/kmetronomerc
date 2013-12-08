@@ -1,0 +1,60 @@
+[KFileDialog Settings]
+Height 768=501
+Recent Files[$e]=$HOME/Documenten/kmetronomepatterns.pat,$HOME/Documenten/kmetronomepatterns.pat
+Width 1024=450
+
+[MainWindow]
+Height 768=501
+State=AAAA/wAAAAD9AAAAAAAAAZQAAAG2AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=404
+
+[Pattern_]
+36=f,,,,f,,,,f,,,,f,,,
+38=,,f,,,,f,,,,f,,,,f,
+42=f,p,p,p,f,p,p,p,f,p,p,p,f,p,p,p
+Beats=16
+Figure=16
+
+[Pattern_Basic-Drumbeat]
+36=f,,,,f,,,,f,,,,f,,,
+38=,,f,,,,f,,,,f,,,,f,
+42=f,p,p,p,f,p,p,p,f,p,p,p,f,p,p,p
+Beats=16
+Figure=16
+
+[Pattern_Bolero]
+38=f,,,p,p,p,f,,,p,p,p,f,,,f,,,f,,,p,p,p,f,,,p,p,p,p,p,p,p,p,p
+Beats=36
+Figure=16
+
+[Pattern_Bolero-kopietje]
+38=f,,,p,p,p,f,,,p,p,p,f,,,f,,,f,,,p,p,p,f,,,p,p,p,p,p,p,p,p,p
+Beats=36
+Figure=16
+
+[Recent Dirs]
+KMetronome[$e]=file://$HOME/Documenten/,$HOME/Documenten
+
+[Settings]
+autoconnect=true
+balance=64
+bank=General MIDI Drums
+channel=9
+duration=10
+fakeToolbar=true
+inputConn=
+instrument=General MIDI
+outputConn=
+program=General MIDI Drums
+resolution=120
+rhythmDenominator=4
+rhythmNumerator=36
+sendNoteOff=true
+strongNote=35
+strongVelocity=100
+styledKnobs=true
+tempo=90
+volume=100
+weakNote=35
+weakVelocity=100

@@ -1,0 +1,13 @@
+GENERAL MENU :
+==============
+Panic        : /opt/jacklinx/bin/app-panic-qsynth.sh
+             :
+USB Channel  : /opt/jacklinx/bin/mnu-usb-switch.sh
+             :
+Presets      : /opt/jacklinx/bin/mnu-presets.sh
+             :
+Help         : firefox /opt/jacklinx/share/doc/help.html
+About        : firefox /opt/jacklinx/share/doc/about.html
+             :
+Stop JackLinx: /opt/jacklinx/bin/app-stop-all-x-times.sh
+==============

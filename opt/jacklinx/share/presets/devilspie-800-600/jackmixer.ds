@@ -1,0 +1,11 @@
+; generated_rule jackmixer
+( if 
+( begin 
+( is ( application_name ) "jack_mixer" )
+) 
+( begin 
+( set_workspace 2 )
+( geometry "870x300+150+230" )
+( println "match" )
+)
+)

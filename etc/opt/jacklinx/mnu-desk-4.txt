@@ -1,0 +1,12 @@
+DESK 4 EFFECT:
+==============
+Reverb       : jack-rack /opt/jacklinx/share/presets/jackrack-presets/gverb
+             : 
+             :
+             :
+             :
+             :
+             :
+             :
+             :
+==============

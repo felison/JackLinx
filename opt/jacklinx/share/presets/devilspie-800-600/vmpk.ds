@@ -1,0 +1,13 @@
+; generated_rule vmpk
+( if 
+( begin 
+( contains ( application_name ) "vmpk" )
+( contains ( window_name ) "Virtual MIDI Piano Keyboard" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "870x180+150+560" )
+( println "match" )
+)
+)

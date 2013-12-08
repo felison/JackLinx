@@ -1,0 +1,11 @@
+; generated_rule gmplayer
+( if 
+( begin 
+( contains ( window_name ) "GNOME" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "350x350+0+30" )
+( println "match" )
+)
+)

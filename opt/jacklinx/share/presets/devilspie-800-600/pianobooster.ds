@@ -1,0 +1,11 @@
+; generated_rule pianobooster
+( if 
+( begin 
+( contains ( window_name ) "Booster" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "1109x699+158+52" )
+( println "match" )
+)
+)

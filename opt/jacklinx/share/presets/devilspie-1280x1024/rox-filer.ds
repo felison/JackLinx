@@ -1,0 +1,10 @@
+; generated_rule rox-filer
+( if 
+( begin 
+( is ( window_name ) "/opt/jackpakx/bin" )
+) 
+( begin 
+( geometry "800x600+140+30" )
+( println "match" )
+)
+)

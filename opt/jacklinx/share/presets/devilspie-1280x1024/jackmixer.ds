@@ -1,0 +1,12 @@
+; generated_rule jackmixer
+( if 
+( begin 
+( is ( application_name ) "jack_mixer" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "700x295+576+730" )
+( println "match" )
+)
+)

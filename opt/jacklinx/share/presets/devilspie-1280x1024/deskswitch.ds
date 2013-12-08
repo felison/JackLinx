@@ -1,0 +1,12 @@
+; generated_rule deskswitch
+( if 
+( begin 
+( contains ( window_name ) "DESKSWITCH" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "132x121+0+270" )
+( println "match" )
+)
+)

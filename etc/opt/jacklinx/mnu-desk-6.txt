@@ -1,0 +1,12 @@
+DESK 6 TECH  :
+==============
+ALSA Mixer   : xterm alsamixer
+Pulse Audio  : pavucontrol
+Aconnectgui  : aconnectgui
+Patchage     : patchage
+Oscilloscope : meterbridge -t sco -c 2 "jack_mixer:MAIN L" "jack_mixer:MAIN R"
+Phasemeter   : meterbridge -t jf  -c 2 "jack_mixer:MAIN L" "jack_mixer:MAIN R"
+System Info  : sysinfo
+             :
+             :
+==============

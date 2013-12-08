@@ -1,0 +1,456 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.3.8" name="ext-patchbay-25">
+ <output-sockets>
+  <socket exclusive="off" client="ION Laptop Piano" type="alsa-midi" name="ION-Laptop-Piano-Midi-Out">
+   <plug>ION Laptop Piano MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" client="nanoPAD" type="alsa-midi" name="NanoPad-Midi-Out">
+   <plug>nanoPAD MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" client="nanoKEY" type="alsa-midi" name="NanoKey-Midi-Out">
+   <plug>nanoKEY MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" client="UM-1" type="alsa-midi" name="UM1-Midi-USB">
+   <plug>UM-1 MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" client="MIDI DRUM" type="alsa-midi" name="MidiDrum-Midi-Out">
+   <plug>MIDI DRUM MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch2" type="alsa-midi" name="usb-mdd-rtr-ch1-ch2">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch3" type="alsa-midi" name="usb-mdd-rtr-ch1-ch3">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch4" type="alsa-midi" name="usb-mdd-rtr-ch1-ch4">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch5" type="alsa-midi" name="usb-mdd-rtr-ch1-ch5">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch9" type="alsa-midi" name="usb-mdd-rtr-ch1-ch9">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch10" type="alsa-midi" name="usb-mdd-rtr-ch1-ch10">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="VMPK Output" type="alsa-midi" name="VMPK-Midi-Out">
+   <plug>VMPK Output</plug>
+  </socket>
+  <socket exclusive="off" client="QmidiNet" type="alsa-midi" name="QMidiNet-Port-0-Recv-Band-Midi-Out-VOID">
+   <plug>port 0</plug>
+  </socket>
+  <socket exclusive="on" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-1-Midi-Out-VOID">
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-2-Midi-Out-Ch-02-Soprano">
+   <plug>out_2</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-3-Midi-Out-Ch-03-Alto">
+   <plug>out_3</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-4-Midi-Out-Ch-04-Tenor">
+   <plug>out_4</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-5-Midi-Out-Ch-05-Bass">
+   <plug>out_5</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-6-Midi-Out-Ch-09-Chords">
+   <plug>out_6</plug>
+  </socket>
+  <socket exclusive="off" client="qmidiroute" type="alsa-midi" name="qmidiroute-chord-maker">
+   <plug>out 1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Port-7-Midi-Out-Ch-10-Percussion">
+   <plug>out_7</plug>
+  </socket>
+  <socket exclusive="off" client="KMetronome" type="alsa-midi" name="KMetronome-Midi-Out">
+   <plug>KMetronome</plug>
+  </socket>
+  <socket exclusive="off" client="KMidimon" type="alsa-midi" name="KMidiMon-Midi-Out">
+   <plug>KMidimon</plug>
+  </socket>
+  <socket exclusive="off" client="RtMidi Output Client" type="alsa-midi" name="Pianobooster-Midi-Out">
+   <plug>RtMidi</plug>
+  </socket>
+  <socket exclusive="off" client="QmidiNet" type="alsa-midi" name="QMidiNet-Port-1-Recv-Back-Midi-Out">
+   <plug>port 1</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-01-midi-out">
+   <plug>CH-01-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-02-midi-out">
+   <plug>CH-02-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-03-midi-out">
+   <plug>CH-03-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-04-midi-out">
+   <plug>CH-04-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-05-midi-out">
+   <plug>CH-05-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-10-midi-out-Percussion">
+   <plug>CH-10-OUT</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-12-midi-out">
+   <plug>CH-12-OUT</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-01" type="jack-audio" name="Qsynth-CH-01-Stereo-Out-VOID">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-02" type="jack-audio" name="Qsynth-CH-02-Stereo-Out-Soprano">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-03" type="jack-audio" name="Qsynth-CH-03-Stereo-Out-Alto">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-04" type="jack-audio" name="Qsynth-CH-04-Stereo-Out-Tenor">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="off" client="Qsynth-CH-05" type="jack-audio" name="Qsynth-CH-05-Stereo-Out-Bass">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="off" client="Qsynth-CH-09" type="jack-audio" name="Qsynth-CH-09-Stereo-Out-Chords">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-10" type="jack-audio" name="Qsynth-CH-10-Stereo-Out-Percussion">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="Qsynth-CH-12" type="jack-audio" name="Qsynth-CH-12-Stereo-Out-Midi-Backing">
+   <plug>l_00</plug>
+   <plug>r_00</plug>
+  </socket>
+  <socket exclusive="on" client="PulseAudio JACK Sink" type="jack-audio" name="PulseAudio-Jack-Sink">
+   <plug>front-left</plug>
+   <plug>front-right</plug>
+  </socket>
+  <socket exclusive="on" client="MPlayer \[[0-9]+\]" type="jack-audio" name="MPlayer-Stereo-Out">
+   <plug>out_0</plug>
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="on" client="Mscore1" type="jack-audio" name="MScore-Stereo-Out">
+   <plug>left</plug>
+   <plug>right</plug>
+  </socket>
+  <socket exclusive="off" client="idjc-mx_default" type="jack-audio" name="Internet-DJ-Console-IceCast">
+   <plug>str_out_l</plug>
+   <plug>str_out_r</plug>
+  </socket>
+  <socket exclusive="on" client="Mixxx" type="jack-audio" name="Mixxx-Stereo-Out">
+   <plug>out_0</plug>
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="jackbeat" type="jack-audio" name="JackBeat-Quadro-Out">
+   <plug>sequence1_track1</plug>
+   <plug>sequence1_track2</plug>
+   <plug>sequence1_track3</plug>
+   <plug>sequence1_track4</plug>
+  </socket>
+  <socket exclusive="on" client="Hydrogen" type="jack-audio" name="Hydrogen-Stereo-Out">
+   <plug>out_L</plug>
+   <plug>out_R</plug>
+  </socket>
+  <socket exclusive="on" client="Qtractor" type="jack-audio" name="Qtractor-Master-Stereo-Out">
+   <plug>Master/out_1</plug>
+   <plug>Master/out_2</plug>
+  </socket>
+  <socket exclusive="off" client="jack_mixer" type="jack-audio" name="JackMIxer-Stereo-Out">
+   <plug>MAIN L</plug>
+   <plug>MAIN R</plug>
+  </socket>
+  <socket exclusive="off" client="jack_rack" type="jack-audio" name="Jack-Rack-Stereo-Out">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+  </socket>
+  <socket exclusive="off" client="Midi Through" type="alsa-midi" name="zzz-MidiThrough-Aplaymidi-Midi-Out">
+   <plug>Midi Through Port-0</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch2" type="alsa-midi" name="usb-mdd-rtr-ch1-ch2">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch3" type="alsa-midi" name="usb-mdd-rtr-ch1-ch3">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch4" type="alsa-midi" name="usb-mdd-rtr-ch1-ch4">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch5" type="alsa-midi" name="usb-mdd-rtr-ch1-ch5">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch9" type="alsa-midi" name="usb-mdd-rtr-ch1-ch9">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-rtr-ch1-ch10" type="alsa-midi" name="usb-mdd-rtr-ch1-ch10">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="QmidiNet" type="alsa-midi" name="QMidiNet-Port-0-Send-Band-Midi-In">
+   <plug>port 0</plug>
+  </socket>
+  <socket exclusive="off" client="mdd-router-ch-port" type="alsa-midi" name="Mdd-Router-Ch-Ports-Midi-In">
+   <plug>in_1</plug>
+  </socket>
+  <socket exclusive="off" client="RtMidi Input Client" type="alsa-midi" name="Pianobooster-Midi-In">
+   <plug>RtMidi</plug>
+  </socket>
+  <socket exclusive="off" client="Hydrogen" type="alsa-midi" name="Hydrogen-Midi-In">
+   <plug>Hydrogen Midi-In</plug>
+  </socket>
+  <socket exclusive="off" client="MIDI monitor" type="alsa-midi" name="gmidimonitor">
+   <plug>midi in</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-01-midi-in-VOID">
+   <plug>CH-01-IN</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-02-midi-in">
+   <plug>CH-02-IN</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-03-midi-in">
+   <plug>CH-03-IN</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-04-midi-in">
+   <plug>CH-04-IN</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-05-midi-in">
+   <plug>CH-05-IN</plug>
+  </socket>
+  <socket exclusive="off" client="qmidiroute" type="alsa-midi" name="qmidiroute-chord-maker">
+   <plug>in</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-10-midi-in">
+   <plug>CH-10-IN</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="alsa-midi" name="Qtractor-CH-12-midi-in">
+   <plug>CH-12-IN</plug>
+  </socket>
+  <socket exclusive="on" client="FLUID Synth \(Qsynth-CH-01\)" type="alsa-midi" name="Qsynth-CH-01-Midi-In-VOID">
+   <plug>Synth input port \(Qsynth-CH-01:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-02\)" type="alsa-midi" name="Qsynth-CH-02-Midi-In-Soprano">
+   <plug>Synth input port \(Qsynth-CH-02:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-03\)" type="alsa-midi" name="Qsynth-CH-03-Midi-In-Alto">
+   <plug>Synth input port \(Qsynth-CH-03:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-04\)" type="alsa-midi" name="Qsynth-CH-04-Midi-In-Tenor">
+   <plug>Synth input port \(Qsynth-CH-04:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-05\)" type="alsa-midi" name="Qsynth-CH-05-Midi-In-Bass">
+   <plug>Synth input port \(Qsynth-CH-05:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-09\)" type="alsa-midi" name="Qsynth-CH-09-Midi-In-Chords">
+   <plug>Synth input port \(Qsynth-CH-09:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-10\)" type="alsa-midi" name="Qsynth-CH-10-Midi-In-Percussion">
+   <plug>Synth input port \(Qsynth-CH-10:0\)</plug>
+  </socket>
+  <socket exclusive="off" client="QmidiNet" type="alsa-midi" name="QMidiNet-Port-1-Send-Back-Midi-In">
+   <plug>port 1</plug>
+  </socket>
+  <socket exclusive="off" client="FLUID Synth \(Qsynth-CH-12\)" type="alsa-midi" name="Qsynth-CH-12-Midi-In">
+   <plug>Synth input port \(Qsynth-CH-12:0\)</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-01-Stereo-In-VOID">
+   <plug>CH-01 L</plug>
+   <plug>CH-01 R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-02-Stereo-In-Soprano">
+   <plug>02-S L</plug>
+   <plug>02-S R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-03-Stereo-In-Alto">
+   <plug>03-A L</plug>
+   <plug>03-A R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-04-Stereo-In-Tenor">
+   <plug>04-T L</plug>
+   <plug>04-T R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-05-Stereo-In-Bass">
+   <plug>05-B L</plug>
+   <plug>05-B R</plug>
+  </socket>
+  <socket exclusive="off" client="jack_mixer" type="jack-audio" name="JackMixer-CH-09-Stereo-In-Chords">
+   <plug>09-C L</plug>
+   <plug>09-C R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-10-Stereo-In-Percussion">
+   <plug>10-D L</plug>
+   <plug>10-D R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-CH-12-Stereo-In-Midi-Backing">
+   <plug>Midi L</plug>
+   <plug>Midi R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-PulseAudio-Stereo-In">
+   <plug>Flsh L</plug>
+   <plug>Flsh R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-Player-Stereo-In">
+   <plug>Play L</plug>
+   <plug>Play R</plug>
+  </socket>
+  <socket exclusive="on" client="jack_mixer" type="jack-audio" name="JackMixer-Score-Stereo-In">
+   <plug>Scor L</plug>
+   <plug>Scor R</plug>
+  </socket>
+  <socket exclusive="off" client="jack_mixer" type="jack-audio" name="JackMixer-Other-Stereo-In">
+   <plug>Othr L</plug>
+   <plug>Othr R</plug>
+  </socket>
+  <socket exclusive="off" client="jack_mixer" type="jack-audio" name="JackMixer-MxDwn-Stereo-In">
+   <plug>MxDn L</plug>
+   <plug>MxDn R</plug>
+  </socket>
+  <socket exclusive="off" client="jack_rack" type="jack-audio" name="Jack-Rack-Stereo-In">
+   <plug>in_1</plug>
+   <plug>in_2</plug>
+  </socket>
+  <socket exclusive="off" client="Qtractor" type="jack-audio" name="Qtractor-Master-Audio-In">
+   <plug>Master/in_1</plug>
+   <plug>Master/in_2</plug>
+  </socket>
+  <socket exclusive="off" client="meterbridge-dpm" type="jack-audio" name="meterbridge-dpm">
+   <plug>meter_1</plug>
+   <plug>meter_2</plug>
+  </socket>
+  <socket exclusive="off" client="jkmeter" type="jack-audio" name="JackMeter">
+   <plug>in-1</plug>
+   <plug>in-2</plug>
+  </socket>
+  <socket exclusive="off" client="system" type="jack-audio" name="System-Stereo-Out">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket exclusive="on" client="Midi Through" type="alsa-midi" name="zzz-MidiThrough-Aplaymidi-Midi-In">
+   <plug>Midi Through Port-0</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch2" type="alsa-midi"/>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch3" type="alsa-midi"/>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch4" type="alsa-midi"/>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch5" type="alsa-midi"/>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch10" type="alsa-midi"/>
+  <cable output="ION-Laptop-Piano-Midi-Out" input="usb-mdd-rtr-ch1-ch9" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch2" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch3" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch4" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch5" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch10" type="alsa-midi"/>
+  <cable output="NanoPad-Midi-Out" input="usb-mdd-rtr-ch1-ch9" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch2" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch3" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch4" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch5" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch10" type="alsa-midi"/>
+  <cable output="NanoKey-Midi-Out" input="usb-mdd-rtr-ch1-ch9" type="alsa-midi"/>
+  <cable output="UM1-Midi-USB" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="UM1-Midi-USB" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="UM1-Midi-USB" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="MidiDrum-Midi-Out" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="MidiDrum-Midi-Out" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch2" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch2" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch2" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch3" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch3" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch3" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch4" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch4" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch4" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch5" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch5" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch5" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch10" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch10" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch10" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="VMPK-Midi-Out" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="VMPK-Midi-Out" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="VMPK-Midi-Out" input="Pianobooster-Midi-In" type="alsa-midi"/>
+  <cable output="QMidiNet-Port-0-Recv-Band-Midi-Out-VOID" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-2-Midi-Out-Ch-02-Soprano" input="Qsynth-CH-02-Midi-In-Soprano" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-2-Midi-Out-Ch-02-Soprano" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-2-Midi-Out-Ch-02-Soprano" input="Qtractor-CH-02-midi-in" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-3-Midi-Out-Ch-03-Alto" input="Qsynth-CH-03-Midi-In-Alto" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-3-Midi-Out-Ch-03-Alto" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-3-Midi-Out-Ch-03-Alto" input="Qtractor-CH-03-midi-in" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-4-Midi-Out-Ch-04-Tenor" input="Qsynth-CH-04-Midi-In-Tenor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-4-Midi-Out-Ch-04-Tenor" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-4-Midi-Out-Ch-04-Tenor" input="Qtractor-CH-04-midi-in" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-5-Midi-Out-Ch-05-Bass" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-5-Midi-Out-Ch-05-Bass" input="Qsynth-CH-05-Midi-In-Bass" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-6-Midi-Out-Ch-09-Chords" input="qmidiroute-chord-maker" type="alsa-midi"/>
+  <cable output="qmidiroute-chord-maker" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="qmidiroute-chord-maker" input="Qsynth-CH-09-Midi-In-Chords" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-7-Midi-Out-Ch-10-Percussion" input="Qsynth-CH-10-Midi-In-Percussion" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-7-Midi-Out-Ch-10-Percussion" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Mdd-Router-Ch-Port-7-Midi-Out-Ch-10-Percussion" input="Qtractor-CH-10-midi-in" type="alsa-midi"/>
+  <cable output="KMetronome-Midi-Out" input="QMidiNet-Port-1-Send-Back-Midi-In" type="alsa-midi"/>
+  <cable output="KMetronome-Midi-Out" input="Qsynth-CH-12-Midi-In" type="alsa-midi"/>
+  <cable output="KMetronome-Midi-Out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="KMetronome-Midi-Out" input="Qtractor-CH-12-midi-in" type="alsa-midi"/>
+  <cable output="KMidiMon-Midi-Out" input="QMidiNet-Port-1-Send-Back-Midi-In" type="alsa-midi"/>
+  <cable output="KMidiMon-Midi-Out" input="Qsynth-CH-12-Midi-In" type="alsa-midi"/>
+  <cable output="KMidiMon-Midi-Out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="KMidiMon-Midi-Out" input="Qtractor-CH-12-midi-in" type="alsa-midi"/>
+  <cable output="Pianobooster-Midi-Out" input="Qsynth-CH-12-Midi-In" type="alsa-midi"/>
+  <cable output="Pianobooster-Midi-Out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Pianobooster-Midi-Out" input="Qtractor-CH-12-midi-in" type="alsa-midi"/>
+  <cable output="QMidiNet-Port-1-Recv-Back-Midi-Out" input="Qsynth-CH-12-Midi-In" type="alsa-midi"/>
+  <cable output="QMidiNet-Port-1-Recv-Back-Midi-Out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="QMidiNet-Port-1-Recv-Back-Midi-Out" input="Qtractor-CH-12-midi-in" type="alsa-midi"/>
+  <cable output="Qtractor-CH-01-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-02-midi-out" input="Qsynth-CH-02-Midi-In-Soprano" type="alsa-midi"/>
+  <cable output="Qtractor-CH-02-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-03-midi-out" input="Qsynth-CH-03-Midi-In-Alto" type="alsa-midi"/>
+  <cable output="Qtractor-CH-03-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-04-midi-out" input="Qsynth-CH-04-Midi-In-Tenor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-04-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-05-midi-out" input="Qsynth-CH-05-Midi-In-Bass" type="alsa-midi"/>
+  <cable output="Qtractor-CH-05-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-10-midi-out-Percussion" input="Qsynth-CH-10-Midi-In-Percussion" type="alsa-midi"/>
+  <cable output="Qtractor-CH-10-midi-out-Percussion" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qtractor-CH-12-midi-out" input="Qsynth-CH-12-Midi-In" type="alsa-midi"/>
+  <cable output="Qtractor-CH-12-midi-out" input="gmidimonitor" type="alsa-midi"/>
+  <cable output="Qsynth-CH-02-Stereo-Out-Soprano" input="JackMixer-CH-02-Stereo-In-Soprano" type="jack-audio"/>
+  <cable output="Qsynth-CH-03-Stereo-Out-Alto" input="JackMixer-CH-03-Stereo-In-Alto" type="jack-audio"/>
+  <cable output="Qsynth-CH-04-Stereo-Out-Tenor" input="JackMixer-CH-04-Stereo-In-Tenor" type="jack-audio"/>
+  <cable output="Qsynth-CH-05-Stereo-Out-Bass" input="JackMixer-CH-05-Stereo-In-Bass" type="jack-audio"/>
+  <cable output="Qsynth-CH-09-Stereo-Out-Chords" input="JackMixer-CH-09-Stereo-In-Chords" type="jack-audio"/>
+  <cable output="Qsynth-CH-10-Stereo-Out-Percussion" input="JackMixer-CH-10-Stereo-In-Percussion" type="jack-audio"/>
+  <cable output="Qsynth-CH-12-Stereo-Out-Midi-Backing" input="JackMixer-CH-12-Stereo-In-Midi-Backing" type="jack-audio"/>
+  <cable output="PulseAudio-Jack-Sink" input="JackMixer-PulseAudio-Stereo-In" type="jack-audio"/>
+  <cable output="MPlayer-Stereo-Out" input="JackMixer-Player-Stereo-In" type="jack-audio"/>
+  <cable output="MScore-Stereo-Out" input="JackMixer-Score-Stereo-In" type="jack-audio"/>
+  <cable output="Internet-DJ-Console-IceCast" input="JackMixer-Other-Stereo-In" type="jack-audio"/>
+  <cable output="Mixxx-Stereo-Out" input="JackMixer-Other-Stereo-In" type="jack-audio"/>
+  <cable output="JackBeat-Quadro-Out" input="JackMixer-Other-Stereo-In" type="jack-audio"/>
+  <cable output="Hydrogen-Stereo-Out" input="JackMixer-Other-Stereo-In" type="jack-audio"/>
+  <cable output="Qtractor-Master-Stereo-Out" input="JackMixer-MxDwn-Stereo-In" type="jack-audio"/>
+  <cable output="JackMIxer-Stereo-Out" input="JackMeter" type="jack-audio"/>
+  <cable output="JackMIxer-Stereo-Out" input="Qtractor-Master-Audio-In" type="jack-audio"/>
+  <cable output="JackMIxer-Stereo-Out" input="Jack-Rack-Stereo-In" type="jack-audio"/>
+  <cable output="JackMIxer-Stereo-Out" input="meterbridge-dpm" type="jack-audio"/>
+  <cable output="JackMIxer-Stereo-Out" input="System-Stereo-Out" type="jack-audio"/>
+  <cable output="Jack-Rack-Stereo-Out" input="Qtractor-Master-Audio-In" type="jack-audio"/>
+  <cable output="Jack-Rack-Stereo-Out" input="JackMeter" type="jack-audio"/>
+  <cable output="Jack-Rack-Stereo-Out" input="System-Stereo-Out" type="jack-audio"/>
+  <cable output="Jack-Rack-Stereo-Out" input="meterbridge-dpm" type="jack-audio"/>
+  <cable output="usb-mdd-rtr-ch1-ch9" input="QMidiNet-Port-0-Send-Band-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch9" input="Mdd-Router-Ch-Ports-Midi-In" type="alsa-midi"/>
+  <cable output="usb-mdd-rtr-ch1-ch9" input="Pianobooster-Midi-In" type="alsa-midi"/>
+ </cables>
+</patchbay>
+

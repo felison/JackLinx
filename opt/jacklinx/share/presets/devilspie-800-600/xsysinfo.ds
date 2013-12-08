@@ -1,0 +1,12 @@
+; generated_rule xsysinfo
+( if 
+( begin 
+( contains ( window_name ) "xsysinfo" )
+) 
+( begin 
+( pin )
+( stick )
+( geometry "130x160+0+30" )
+( println "match" )
+)
+)

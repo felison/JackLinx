@@ -1,0 +1,11 @@
+; generated_rule kmplayer
+( if 
+( begin 
+( contains ( application_name ) "KMPlayer" )
+) 
+( begin 
+( set_workspace 2 )
+( geometry "350x350+0+30" )
+( println "match" )
+)
+)

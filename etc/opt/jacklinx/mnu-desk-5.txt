@@ -1,0 +1,12 @@
+DESK 5 TRACK :
+==============
+Single Track : qtractor /opt/jacklinx/share/presets/qtractor-session/one-midi-track.qtr
+Multi  Track : qtractor /opt/jacklinx/share/presets/qtractor-session/multi-midi-audio-mix-01.qtr
+             :
+             :
+             :
+             :
+             :
+             :
+             :
+==============

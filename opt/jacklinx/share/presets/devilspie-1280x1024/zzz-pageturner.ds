@@ -1,0 +1,11 @@
+; generated_rule pageturner
+( if 
+( begin 
+( contains ( window_name ) "PAGETURNER" )
+) 
+( begin 
+( pin )
+( geometry "+0+530" )
+( println "match" )
+)
+)

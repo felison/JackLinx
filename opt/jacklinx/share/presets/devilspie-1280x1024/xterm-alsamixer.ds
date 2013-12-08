@@ -1,0 +1,10 @@
+; generated_rule xterm-alsamixer
+( if 
+( begin 
+( contains ( window_name ) "xterm" )
+) 
+( begin 
+( geometry "1120x260+150+30" )
+( println "match" )
+)
+)

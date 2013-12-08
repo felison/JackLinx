@@ -1,0 +1,11 @@
+; generated_rule kmetronome
+( if 
+( begin 
+( contains ( window_name ) "KMetronome" )
+) 
+( begin 
+( set_workspace 1 )
+( geometry "398x433+150+30" )
+( println "match" )
+)
+)

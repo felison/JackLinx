@@ -1,0 +1,11 @@
+; generated_rule qsynth
+( if 
+( begin 
+( contains ( application_name ) "Qsynth" )
+) 
+( begin 
+( set_workspace 3 )
+( geometry "1120x290+150+30" )
+( println "match" )
+)
+)

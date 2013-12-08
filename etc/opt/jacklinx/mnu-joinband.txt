@@ -1,0 +1,43 @@
+==================================================
+      _       _         ____                  _  :
+     | | ___ (_)_ __   | __ )  __ _ _ __   __| | :
+  _  | |/ _ \| | '_ \  |  _ \ / _` | '_ \ / _` | :
+ | |_| | (_) | | | | | | |_) | (_| | | | | (_| | :
+  \___/ \___/|_|_| |_| |____/ \__,_|_| |_|\__,_| :
+                                                 :
+==================================================
+Band 01:  killall qmidinet ; qmidinet --num-ports=2 --port=21931 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 01       "
+Band 02:  killall qmidinet ; qmidinet --num-ports=2 --port=21932 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 02       "
+Band 03:  killall qmidinet ; qmidinet --num-ports=2 --port=21933 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 03       "
+Band 04:  killall qmidinet ; qmidinet --num-ports=2 --port=21934 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 04       "
+Band 05:  killall qmidinet ; qmidinet --num-ports=2 --port=21935 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 05       "
+Band 06:  killall qmidinet ; qmidinet --num-ports=2 --port=21936 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 06       "
+Band 07:  killall qmidinet ; qmidinet --num-ports=2 --port=21937 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 07       "
+Band 08:  killall qmidinet ; qmidinet --num-ports=2 --port=21938 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 08       "
+Band 09:  killall qmidinet ; qmidinet --num-ports=2 --port=21939 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 09       "
+Band 10:  killall qmidinet ; qmidinet --num-ports=2 --port=21940 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 10       "
+==================================================
+Band 11:  killall qmidinet ; qmidinet --num-ports=2 --port=21941 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 11       "
+Band 12:  killall qmidinet ; qmidinet --num-ports=2 --port=21942 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 12       "
+Band 13:  killall qmidinet ; qmidinet --num-ports=2 --port=21943 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 13       "
+Band 14:  killall qmidinet ; qmidinet --num-ports=2 --port=21944 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 14       "
+Band 15:  killall qmidinet ; qmidinet --num-ports=2 --port=21945 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 15       "
+Band 16:  killall qmidinet ; qmidinet --num-ports=2 --port=21946 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 16       "
+Band 17:  killall qmidinet ; qmidinet --num-ports=2 --port=21947 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 17       "
+Band 18:  killall qmidinet ; qmidinet --num-ports=2 --port=21948 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 18       "
+Band 19:  killall qmidinet ; qmidinet --num-ports=2 --port=21949 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 19       "
+Band 20:  killall qmidinet ; qmidinet --num-ports=2 --port=21950 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 20       "
+==================================================
+Band 21:  killall qmidinet ; qmidinet --num-ports=2 --port=21951 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 21       "
+Band 22:  killall qmidinet ; qmidinet --num-ports=2 --port=21952 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 22       "
+Band 23:  killall qmidinet ; qmidinet --num-ports=2 --port=21953 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 23       "
+Band 24:  killall qmidinet ; qmidinet --num-ports=2 --port=21954 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 24       "
+Band 25:  killall qmidinet ; qmidinet --num-ports=2 --port=21955 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 25       "
+Band 26:  killall qmidinet ; qmidinet --num-ports=2 --port=21956 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 26       "
+Band 27:  killall qmidinet ; qmidinet --num-ports=2 --port=21957 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 27       "
+Band 28:  killall qmidinet ; qmidinet --num-ports=2 --port=21958 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 28       "
+Band 29:  killall qmidinet ; qmidinet --num-ports=2 --port=21959 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 29       "
+Band 30:  killall qmidinet ; qmidinet --num-ports=2 --port=21960 & wmctrl -c "Band Number" & 9menu -label "Band Number" -bg green -fg black -geometry 100x1000+0+380 "Band 30       "
+==================================================
+Exit                                             :
+==================================================

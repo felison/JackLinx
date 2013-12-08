@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<jack_mixer geometry="700x270">
+	<input_channel balance="0.000000" balance_midi_cc="14" name="02-S" type="stereo" volume="-10.000000" volume_midi_cc="13"/>
+	<input_channel balance="0.000000" balance_midi_cc="16" name="03-A" type="stereo" volume="-10.000000" volume_midi_cc="15"/>
+	<input_channel balance="0.000000" balance_midi_cc="18" name="04-T" type="stereo" volume="-10.000000" volume_midi_cc="17"/>
+	<input_channel balance="0.000000" balance_midi_cc="20" name="05-B" type="stereo" volume="-10.000000" volume_midi_cc="19"/>
+        <input_channel balance="0.000000" balance_midi_cc="22" name="09-C" type="stereo" volume="-10.000000" volume_midi_cc="21"/>
+	<input_channel balance="0.000000" balance_midi_cc="24" name="10-D" type="stereo" volume="-10.000000" volume_midi_cc="23"/>
+	<input_channel balance="0.000000" balance_midi_cc="26" name="Midi" type="stereo" volume="-10.000000" volume_midi_cc="25"/>
+	<input_channel balance="0.000000" balance_midi_cc="28" name="Flsh" type="stereo" volume="-10.000000" volume_midi_cc="27"/>
+	<input_channel balance="0.000000" balance_midi_cc="30" name="Play" type="stereo" volume="-10.000000" volume_midi_cc="29"/>
+	<input_channel balance="0.000000" balance_midi_cc="32" name="Scor" type="stereo" volume="-10.000000" volume_midi_cc="31"/>
+	<input_channel balance="0.000000" balance_midi_cc="34" name="Othr" type="stereo" volume="-10.000000" volume_midi_cc="33"/>
+	<input_channel balance="0.000000" balance_midi_cc="36" name="MxDn" type="stereo" volume="-10.000000" volume_midi_cc="35"/>
+	<main_mix_channel balance="0.000000" balance_midi_cc="8" volume="-10.000000" volume_midi_cc="7"/>
+</jack_mixer>
