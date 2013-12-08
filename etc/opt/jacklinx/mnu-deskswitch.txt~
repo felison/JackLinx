@@ -1,0 +1,6 @@
+Desk 1 Home   : wmctrl -s 0
+Desk 2 Jack   : wmctrl -s 1
+Desk 3 Synth  : wmctrl -s 2
+Desk 4 Effect : wmctrl -s 3
+Desk 5 Track  : wmctrl -s 4
+Desk 6 Tech   : wmctrl -s 5

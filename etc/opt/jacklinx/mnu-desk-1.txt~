@@ -1,8 +1,8 @@
 DESK 1 HOME  :
 ==============
-Web          : firefox http://content.jacklinx.nl
-Demo         : /opt/jacklinx/bin/app-start-demo.sh
-Custom       : /opt/jacklinx/bin/app-start-custom.sh
+WWW          : firefox http://content.jacklinx.nl
+JackPakx     : rox-filer /opt/jackpakx/bin
+UPNP         : xbmc
 Players      : /opt/jacklinx/bin/mnu-start-apps.sh
              :
              :

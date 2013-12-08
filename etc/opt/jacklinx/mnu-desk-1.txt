@@ -1,4 +1,4 @@
-DESK 1 HOME  :
+DESK 1 PLAY  :
 ==============
 WWW          : firefox http://content.jacklinx.nl
 JackPakx     : rox-filer /opt/jackpakx/bin

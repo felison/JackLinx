@@ -33,7 +33,7 @@ wmctrl -c Patchage &
 wmctrl -c patchage &
 killall patchage &  
 
-# page 5 - recorder
+# page 5 0 tracker
 killall qtractor &
 
 # page 4 - Effects
@@ -48,7 +48,7 @@ wmctrl -c qmidiroute &
 killall qmidiroute &
 killall qmidiroute /etc/opt/jacklinx/qmr-chord-maker-01.qmr &  
 
-# Page 1 - Performance Page
+# Page 2 - Play Page
 stop-mscore &
 stop-kmidimon &
 stop-kmetronome &
