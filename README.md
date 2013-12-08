@@ -2,6 +2,8 @@
 
 Platform for the Music Classroom.
 
-Website: [http://www.jacklinx.nl](http://www.jacklinx.nl)
+Website & Manual: [http://www.jacklinx.nl](http://www.jacklinx.nl)
 
-Wiki: [https://github.com/felison/JackLinx/wiki](https://github.com/felison/JackLinx/wiki)
+GitHub Wiki & Manual: [https://github.com/felison/JackLinx/wiki](https://github.com/felison/JackLinx/wiki)
+
+Manual PDF on ISSUU: [http://issuu.com/search?q=jacklinx](http://issuu.com/search?q=jacklinx)
