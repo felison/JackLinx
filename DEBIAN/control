@@ -1,10 +1,10 @@
-Package: JackLinx-0.1
-Version: 0.1
+Package: JackLinx-0.2
+Version: 0.2
 Section: misc
 Priority: extra
 Architecture: all
-Depends: pulseaudio-module-jack, devilspie, wmctrl, 9menu, jackd, qjackctl, mididings, jack-mixer, qmidiroute, qmidinet, vmpk, qsynth, meterbridge, kmidimon, kmetronome, gnome-mplayer, mscore, pianobooster, qtractor, hydrogen, mixxx, xsysinfo, gmidimonitor, patchage, stopwatch, aconnectgui, jack-rack
+Depends: 
 Installed-Size: 3000
 Maintainer: Fred de Borst <felison@gmx.net>
 Homepage: www.jacklinx.nl
-Description: Application management framework to enable children and young music students to learn and play music with Linux music and audio applications. Framework consists of a collection of menu dialogs, bash scripts and configuration files that manage and control ready made linux music and audio applications. 
+Description: Platform for the Music Classroom. 
