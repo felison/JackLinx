@@ -4,7 +4,7 @@ Structured Session Manager the Music Classroom.
 
 Website: [http://www.jacklinx.nl](http://www.jacklinx.nl)
 
-GitHub Wiki: [https://github.com/felison/JackLinx/wiki](https://github.com/felison/JackLinx/wiki)
+Manuals: [https://github.com/felison/JackLinx-Manuals](https://github.com/felison/JackLinx-Manuals)
 
 PDF Manual: [http://issuu.com/search?q=jacklinx](http://issuu.com/search?q=jacklinx)
 
