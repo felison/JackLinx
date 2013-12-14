@@ -1,6 +1,8 @@
 [Desktop Entry]
 Name=JackLinx
+Name[­de­]=JackLinx
 Comment=JackLinx
+Comment[­de­]=JackLinx
 Exec=/opt/jacklinx/bin/app-start-jacklinx.sh
 Icon=/opt/jacklinx/share/graphics/jacklinx.png
 Terminal=false
