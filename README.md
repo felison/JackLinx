@@ -1,6 +1,6 @@
 # JackLinx
 
-Structured Session Manager the Music Classroom.
+Structured Session Manager for the Music Classroom.
 
 Website: [http://www.jacklinx.nl](http://www.jacklinx.nl)
 
