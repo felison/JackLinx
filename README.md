@@ -2,7 +2,7 @@
 
 ## Simple Session Manager for the Music Classroom.
 
-#### Enrich your curriculum with praxial music making using open source software.
+#### Enrich your music curriculum with praxial music making using open source software.
 
 JackLinx Website: [http://www.jacklinx.nl](http://www.jacklinx.nl)
 
